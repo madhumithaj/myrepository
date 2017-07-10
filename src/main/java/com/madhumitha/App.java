@@ -22,13 +22,13 @@ package com.madhumitha;
        
         //create an array of days
         String[] strDays = new String[]{
-                          "Sunday",
-                          "Monday",
-                          "Tuesday",
-                          "Wednesday",
-                          "Thusday",
-                          "Friday",
-                          "Saturday"
+                          "Sun",
+                          "Mon",
+                          "Tues",
+                          "Wednes",
+                          "Thus",
+                          "Fri",
+                          "Satur"
                         };
        
         //Day_OF_WEEK starts from 1 while array index starts from 0      
