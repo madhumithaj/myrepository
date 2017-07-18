@@ -49,6 +49,6 @@ class StudentComparator implements Comparator<Student>{
         }else{
             return 0;
         }
-        
+       System.out.println("success."); 
     }
 }
