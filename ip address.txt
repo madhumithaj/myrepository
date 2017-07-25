@@ -1,0 +1,9 @@
+ external/public ip address:
+52.173.85.63
+
+ Local Ip:
+10.0.1.4
+
+
+NGROK:
+http://f0d4135d.ngrok.io
