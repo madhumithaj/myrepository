@@ -15,4 +15,17 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+    <repository>
+          <snapshots />
+          <id>snapshots</id>
+          <name>libs-snapshot</name>
+          <url>http://localhost:8081/artifactory/libs-snapshot</url>
+        </repository>
+    <snapshots>
+          <id>snapshots</id>
+          <name>libs-snapshot</name>
+          <url>http://localhost:8081/artifactory/libs-snapshot</url>
+    </snapshot>
+</distributionManagement>
 </project>
