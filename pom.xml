@@ -4,7 +4,7 @@
   <groupId>com.madhumitha</groupId>
   <artifactId>mavenpjt2</artifactId>
   <packaging>jar</packaging>
-  <version>1.0-SNAPSHOT</version>
+  <version>1.0-RELEASE</version>
   <name>mavenpjt2</name>
   <url>http://maven.apache.org</url>
   <dependencies>
@@ -17,15 +17,14 @@
   </dependencies>
   <distributionManagement>
     <repository>
-          <snapshots />
-          <id>snapshots</id>
-          <name>libs-snapshot</name>
-          <url>http://localhost:8081/artifactory/libs-snapshot</url>
-        </repository>
-    <snapshots>
-          <id>snapshots</id>
-          <name>libs-snapshot</name>
-          <url>http://localhost:8081/artifactory/libs-snapshot</url>
-    </snapshot>
+        <id>central</id>
+        <name>vm1-releases</name>
+        <url>http://localhost:8081/artifactory/madhu-snapshots-local</url>
+    </repository>
+    <snapshotRepository>
+        <id>snapshots</id>
+        <name>vm1-snapshots</name>
+        <url>http://localhost:8081/artifactory/madhu-snapshots-local</url>
+    </snapshotRepository>
 </distributionManagement>
 </project>
